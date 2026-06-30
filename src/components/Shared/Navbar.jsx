@@ -4,6 +4,7 @@ import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import { MdMedicalServices } from "react-icons/md";
 import { FaChevronDown } from "react-icons/fa";
 
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [blogOpen, setBlogOpen] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
           </div>
 
           <h1 className="text-3xl font-bold text-gray-800">
-            Doc<span className="font-normal">med</span>
+            Health<span className="font-normal">Partner</span>
           </h1>
         </NavLink>
 

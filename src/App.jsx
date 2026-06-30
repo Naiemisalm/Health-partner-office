@@ -14,6 +14,8 @@ import Contact from './components/Pages/Contact'
 import Department from './components/Pages/Department'
 import Services from './components/cards/Services'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import ComprehensiveServices from './components/cards/ComprehensiveServices'
+import HealthcareServices from './components/cards/Healthcare Services/HealthcareServices'
 
 
 
@@ -30,6 +32,8 @@ function App() {
           <>
             <Hero />
             <Services />
+             <HealthcareServices/>
+             <ComprehensiveServices/>
           </>
         } />
 
