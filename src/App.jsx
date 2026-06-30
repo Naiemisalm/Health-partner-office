@@ -18,6 +18,7 @@ import ComprehensiveServices from './components/cards/ComprehensiveServices'
 import HealthcareServices from './components/cards/Healthcare Services/HealthcareServices'
 import TopDoctors from './components/TopDoctors/TopDoctors'
 import TestimonialCarousel from './components/cards/TestimonialsCarousel/TestimonialsCarousel'
+import TalkBanner from './components/TalkBanner/TalkBanner'
 
 
 
@@ -40,6 +41,7 @@ function App() {
              <HealthcareServices/>
              <ComprehensiveServices/>
              <TestimonialCarousel/>
+             <TalkBanner/>
              
           </>
         } />
