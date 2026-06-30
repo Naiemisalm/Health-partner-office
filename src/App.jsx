@@ -19,6 +19,7 @@ import HealthcareServices from './components/cards/Healthcare Services/Healthcar
 import TopDoctors from './components/TopDoctors/TopDoctors'
 import TestimonialCarousel from './components/cards/TestimonialsCarousel/TestimonialsCarousel'
 import TalkBanner from './components/TalkBanner/TalkBanner'
+import AboutUs from './components/Pages/AboutUs'
 
 
 
@@ -47,6 +48,8 @@ function App() {
         } />
 
         <Route path="/blog" element={<Blog />} />
+        <Route path="/About Us" element={<AboutUs />} />
+
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/department" element={<Department />} />
         <Route path="/contact" element={<Contact />} />

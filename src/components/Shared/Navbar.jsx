@@ -63,10 +63,10 @@ const Navbar = () => {
   </div>
 </div>
           <NavLink
-            to="/pages"
+            to="/About Us"
             className="flex items-center gap-1 text-gray-700 hover:text-sky-500 transition"
           >
-            Pages
+            About Us
             <FaChevronDown className="text-xs" />
           </NavLink>
 
