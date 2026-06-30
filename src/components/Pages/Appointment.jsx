@@ -1,7 +1,7 @@
 const Appointment = () => {
   return (
     <div className="max-w-7xl mx-auto px-6 py-16">
-      
+
       <h1 className="text-4xl font-bold text-gray-800 text-center mb-12">
         Make an Appointment
       </h1>
@@ -30,27 +30,16 @@ const Appointment = () => {
         <div className="bg-white shadow-md rounded-lg p-8">
           <form className="space-y-4">
 
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full border p-3 rounded-md outline-none focus:ring-2 focus:ring-sky-400"
-            />
+            <input type="text" placeholder="Your Name"
+              className="w-full border p-3 rounded-md outline-none focus:ring-2 focus:ring-sky-400" />
 
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="w-full border p-3 rounded-md outline-none focus:ring-2 focus:ring-sky-400"
-            />
+            <input type="email" placeholder="Your Email"
+              className="w-full border p-3 rounded-md outline-none focus:ring-2 focus:ring-sky-400" />
 
-            <input
-              type="tel"
-              placeholder="Phone Number"
-              className="w-full border p-3 rounded-md outline-none focus:ring-2 focus:ring-sky-400"
-            />
+            <input type="tel" placeholder="Phone Number"
+              className="w-full border p-3 rounded-md outline-none focus:ring-2 focus:ring-sky-400" />
 
-            <select
-              className="w-full border p-3 rounded-md outline-none focus:ring-2 focus:ring-sky-400"
-            >
+            <select className="w-full border p-3 rounded-md outline-none focus:ring-2 focus:ring-sky-400">
               <option>Select Department</option>
               <option>Cardiology</option>
               <option>Neurology</option>
@@ -58,21 +47,14 @@ const Appointment = () => {
               <option>Orthopedics</option>
             </select>
 
-            <input
-              type="date"
-              className="w-full border p-3 rounded-md outline-none focus:ring-2 focus:ring-sky-400"
-            />
+            <input type="date"
+              className="w-full border p-3 rounded-md outline-none focus:ring-2 focus:ring-sky-400" />
 
-            <textarea
-              rows="4"
-              placeholder="Additional Message"
-              className="w-full border p-3 rounded-md outline-none focus:ring-2 focus:ring-sky-400"
-            ></textarea>
+            <textarea rows="4" placeholder="Additional Message"
+              className="w-full border p-3 rounded-md outline-none focus:ring-2 focus:ring-sky-400"></textarea>
 
-            <button
-              type="submit"
-              className="w-full bg-sky-500 hover:bg-sky-600 text-white py-3 rounded-md font-medium transition"
-            >
+            <button type="submit"
+              className="w-full bg-sky-500 hover:bg-sky-600 text-white py-3 rounded-md font-medium transition">
               Book Appointment
             </button>
 

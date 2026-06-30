@@ -16,6 +16,8 @@ import Services from './components/cards/Services'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import ComprehensiveServices from './components/cards/ComprehensiveServices'
 import HealthcareServices from './components/cards/Healthcare Services/HealthcareServices'
+import TopDoctors from './components/TopDoctors/TopDoctors'
+import TestimonialCarousel from './components/cards/TestimonialsCarousel/TestimonialsCarousel'
 
 
 
@@ -31,9 +33,14 @@ function App() {
         <Route path="/" element={
           <>
             <Hero />
+            
             <Services />
+                  <TopDoctors/>
+
              <HealthcareServices/>
              <ComprehensiveServices/>
+             <TestimonialCarousel/>
+             
           </>
         } />
 
@@ -41,7 +48,7 @@ function App() {
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/department" element={<Department />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/appointment" element={<Appointment />} />
+<Route path="/appointment/:id" element={<Appointment />} />
       </Routes>
 
       <Footer />
