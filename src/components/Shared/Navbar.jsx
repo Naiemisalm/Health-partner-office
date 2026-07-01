@@ -76,6 +76,9 @@ const Navbar = () => {
           <NavLink to="/contact" className={navLinkStyle}>
             Contact
           </NavLink>
+          <NavLink to="/" className={navLinkStyle}>
+            Login
+          </NavLink>
         </nav>
 
         {/* Button */}
@@ -83,7 +86,7 @@ const Navbar = () => {
           to="/appointment"
           className="hidden lg:block border border-sky-500 text-sky-500 px-6 py-3 rounded-md hover:bg-sky-500 hover:text-white duration-300"
         >
-          Make an Appointment
+          Appointment
         </NavLink>
 
         {/* Mobile Menu Button */}
@@ -156,13 +159,16 @@ const Navbar = () => {
             <NavLink to="/contact" onClick={() => setMenuOpen(false)}>
               Contact
             </NavLink>
+            <NavLink to="/contact" onClick={() => setMenuOpen(false)}>
+              Sign in
+            </NavLink>
 
             <NavLink
               to="/appointment"
               onClick={() => setMenuOpen(false)}
               className="bg-sky-500 text-white text-center py-3 rounded-md"
             >
-              Make an Appointment
+              Appointment
             </NavLink>
           </div>
         </div>

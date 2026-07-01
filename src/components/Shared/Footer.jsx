@@ -8,7 +8,7 @@ const Footer = () => {
 
         {/* About */}
         <div>
-          <h2 className="text-2xl font-bold mb-4">Docmed</h2>
+          <h2 className="text-2xl font-bold mb-4">Health Partner</h2>
           <p className="text-gray-300 leading-7">
             We provide high quality healthcare services with expert doctors
             and modern facilities for your better health.
