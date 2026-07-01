@@ -20,6 +20,7 @@ import TopDoctors from './components/TopDoctors/TopDoctors'
 import TestimonialCarousel from './components/cards/TestimonialsCarousel/TestimonialsCarousel'
 import TalkBanner from './components/TalkBanner/TalkBanner'
 import AboutUs from './components/Pages/AboutUs'
+import About from './components/Pages/About/About'
 
 
 
@@ -48,12 +49,11 @@ function App() {
         } />
 
         <Route path="/blog" element={<Blog />} />
-        <Route path="/About Us" element={<AboutUs />} />
-
+<Route path="/about-us" element={<About />} />
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/department" element={<Department />} />
         <Route path="/contact" element={<Contact />} />
-<Route path="/appointment/:id" element={<Appointment />} />
+        <Route path="/appointment/:id" element={<Appointment />} />
       </Routes>
 
       <Footer />

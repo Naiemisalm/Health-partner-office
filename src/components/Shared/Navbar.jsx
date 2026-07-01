@@ -63,12 +63,11 @@ const Navbar = () => {
   </div>
 </div>
           <NavLink
-            to="/About Us"
-            className="flex items-center gap-1 text-gray-700 hover:text-sky-500 transition"
-          >
-            About Us
-            <FaChevronDown className="text-xs" />
-          </NavLink>
+  to="/about-us"
+  className={navLinkStyle}
+>
+  About Us
+</NavLink>
 
           <NavLink to="/doctors" className={navLinkStyle}>
             Doctors

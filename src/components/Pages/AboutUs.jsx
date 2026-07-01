@@ -97,7 +97,7 @@ export default AboutUs;
 
 
 
-import AboutHero from "../components/AboutHero";
+{/*import AboutHero from "../components/AboutHero";
 import Team from "../components/Team";
 import Services from "../components/Services";
 import ContactInfo from "../components/ContactInfo";
@@ -113,4 +113,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About; */}
